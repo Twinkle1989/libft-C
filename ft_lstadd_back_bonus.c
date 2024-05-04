@@ -1,28 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_calloc.c                                        :+:      :+:    :+:   */
+/*   ft_lstadd_back_bonus.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/22 14:00:30 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/05/04 19:24:27 by tsolanki         ###   ########.fr       */
+/*   Created: 2024/05/02 17:09:42 by tsolanki          #+#    #+#             */
+/*   Updated: 2024/05/02 18:19:20 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_calloc(size_t count, size_t n)
+void	ft_lstadd_back(t_list **lst, t_list *new)
 {
-	void	*ptr;
-	size_t	i;
+	t_list	*new_node;
 
-	i = count * n;
-	if (count && n && ((SIZE_MAX) / n < count))
-		return (NULL);
-	ptr = malloc(i);
-	if (ptr == NULL)
-		return (NULL);
-	ft_bzero(ptr, i);
-	return (ptr);
+	if (!new)
+		return ;
+	if (*lst == NULL)
+	{
+		*lst = new;
+		return ;
+	}
+	else
+	{
+		new_node = *lst;
+		while (new_node->next != NULL)
+			new_node = new_node->next;
+	}
+	new_node->next = new;
 }

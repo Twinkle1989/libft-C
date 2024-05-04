@@ -6,7 +6,7 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/30 19:33:02 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/04/30 19:37:07 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/02 16:05:28 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,14 @@
 int	ft_lstsize(t_list *lst)
 {
 	t_list	*temp;
-	int		i;
+	int		count;
 
 	temp = lst;
-	i = 0;
+	count = 0;
 	while (temp)
 	{
 		temp = temp->next;
-		i++;
+		count++;
 	}
-	return (i);
+	return (count);
 }

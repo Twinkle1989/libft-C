@@ -22,11 +22,10 @@ SRCS = ft_isdigit.c ft_strchr.c ft_tolower.c ft_strlcat.c \
 	   ft_strnstr.c ft_atoi.c ft_calloc.c ft_strdup.c ft_substr.c ft_strjoin.c \
 	   ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c ft_striteri.c ft_putchar_fd.c \
 	   ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c
-BONUS = ft_listnew_bonus.c ft_lstadd_front_bonus.c \
-		ft_lstsize_bonus.c ft_lstlast_bonus.c \
-		ft_lstadd_back_bonus.c ft_lstdelone_bonus.c \
-		ft_lstclear_bonus.c ft_lstiter_bonus.c \
-        ft_lstmap_bonus.c
+BONUS = ft_lstnew_bonus.c ft_lstadd_front_bonus.c \
+		ft_lstsize_bonus.c ft_lstlast_bonus.c ft_lstadd_back_bonus.c \
+		ft_lstdelone_bonus.c ft_lstclear_bonus.c ft_lstiter_bonus.c ft_lstmap_bonus.c
+		
 
 SRC_OBJS = $(SRCS:.c=.o)
 BONUS_OBJS = $(BONUS:.c=.o)
@@ -37,12 +36,13 @@ NAME = libft.a
 # Rule to make everything
 all: $(NAME)
 
-# Rule to make the program
+# Rule to make the program: rule for compilation
 $(NAME): $(SRC_OBJS)
 	ar rcs $(NAME) $(SRC_OBJS)
 
 
 # Rule to compile .c to .o
+#($<, the first dependency which is the source file) into an object file ($@, the target file).
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
@@ -54,10 +54,10 @@ clean:
 fclean: clean
 	rm -f $(NAME)
 
-#  Rule to recompile everything
+# Rule to recompile everything
 re: fclean all
 
-#rule for bonus file
+# rule for bonus file
 bonus: $(BONUS_OBJS)
 	ar rcs $(NAME) $(SRC_OBJS)  $(BONUS_OBJS)
 
