@@ -119,6 +119,6 @@ Continuous Testing: Integrate testing into your development process. Run your te
 
 <br/>
 <p align="center">
-"C: Where you can write powerful code that even you can't understand a week later.:shipit:"
+"C: Where you can write powerful code that even you can't understand a week later!"
 <p align="center">
 --------------------------ALL THE BEST----------------------------
