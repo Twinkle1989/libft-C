@@ -105,21 +105,28 @@ These functions involve list manipulation, which is highly useful in various pro
 
 By mastering these list manipulation functions, you'll enhance your ability to handle data structures efficiently and effectively, preparing you for more advanced programming challenges.
 
-## **Additional Tip: Testing Your Functions**
+## **Additional Tips: Testing Your Functions**
 Before submitting your Libft project, it is highly recommended to thoroughly test all your functions to ensure they meet the expected standards and behave as intended. Testing not only helps catch bugs early but also improves the quality and reliability of your code. Here are a few tools and methods you can use to test your Libft functions:
 
-Francinette: This is a popular testing tool specifically designed for 42 school projects like Libft. It tests your functions against a wide range of cases to ensure they behave exactly like their standard C library counterparts. Using Francinette can help you identify subtle bugs and edge cases in your implementations.
+• Francinette: This is a popular testing tool specifically designed for 42 school projects like Libft. It tests your functions against a wide range of cases to ensure they behave exactly like their standard C library counterparts. Using Francinette can help you identify subtle bugs and edge cases in your implementations.
 <br/>
-Libft Unit Tests: Another great option is to use one of the many available online unit testers such as libft-unit-test, Libftester, or 42TESTERS-LIBFT. These tools provide comprehensive testing frameworks that automatically compare the outputs of your functions against the libc functions for a variety of inputs.
+• Libft Unit Tests: Another great option is to use one of the many available online unit testers such as libft-unit-test, Libftester, or 42TESTERS-LIBFT. These tools provide comprehensive testing frameworks that automatically compare the outputs of your functions against the libc functions for a variety of inputs.
 <br/>
-Write Your Own Tests: Creating your own test cases allows you to understand your functions' behavior under different conditions. This practice not only helps in debugging but also deepens your understanding of how functions work under the hood.
+• Write Your Own Tests: Creating your own test cases allows you to understand your functions' behavior under different conditions. This practice not only helps in debugging but also deepens your understanding of how functions work under the hood.
 <br/>
-Peer Review: Discuss and test your functions with your peers. Peer reviews can provide new insights and help discover issues that automated tests might miss. It also simulates a real-world scenario where your code could be reviewed by other developers.
+• Peer Review: Discuss and test your functions with your peers. Peer reviews can provide new insights and help discover issues that automated tests might miss. It also simulates a real-world scenario where your code could be reviewed by other developers.
 <br/>
-Continuous Testing: Integrate testing into your development process. Run your tests after implementing each function or making significant changes. This helps ensure that new changes do not break existing functionalities.
+• Continuous Testing: Integrate testing into your development process. Run your tests after implementing each function or making significant changes. This helps ensure that new changes do not break existing functionalities.
 
 <br/>
 <p align="center">
 "C: Where you can write powerful code that even you can't understand a week later!"
 <p align="center">
 --------------------------ALL THE BEST----------------------------
+
+
+
+***How to Contribute:***
+Contributions to Libft are welcome! Whether it's fixing bugs, improving the documentation, or adding new functions, your input is valuable. Please get in touch for guidelines on how to make a contribution.
+
+
