@@ -121,4 +121,4 @@ Continuous Testing: Integrate testing into your development process. Run your te
 <p align="center">
 "C: Where you can write powerful code that even you can't understand a week later.:shipit:"
 <p align="center">
-***ALL THE BEST***
+--------------------------ALL THE BEST----------------------------
