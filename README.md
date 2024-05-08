@@ -8,7 +8,9 @@ Libft is a comprehensive C library project aimed at replicating various standard
 ### **Part 1 - Libc standard C functions**
 These functions are re-implementations of standard Libc functions, prefixed with 'ft_'. Making these will provide a solid foundation for handling strings and memory. These function includes custom implementations of standard C library functions like:
 • isalpha
+<br/>
 • isdigit
+<br/>
 • isalnum
 • isascii
 • isprint
