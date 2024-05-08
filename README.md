@@ -35,8 +35,11 @@ These functions are re-implementations of standard Libc functions, prefixed with
 These functions are not found in the standard Libc or are modified versions of standard functions:
 
 • ft_substr - Creates a substring from a string.
+
 • ft_strjoin - Concatenates two strings into one.
+
 • ft_strtrim - Trims the beginning and end of a string based on a set of characters.
+
 • ft_split - Splits a string into an array of strings based on a delimiter character.
 • ft_itoa - Converts an integer to a string.
 • ft_strmapi - Applies a function to each character of a string.
@@ -73,6 +76,6 @@ Peer Review: Discuss and test your functions with your peers. Peer reviews can p
 Continuous Testing: Integrate testing into your development process. Run your tests after implementing each function or making significant changes. This helps ensure that new changes do not break existing functionalities.
 
 <p align="center">
-> "C: Where you can write powerful code that even you can't understand a week later.:shipit:"
+"C: Where you can write powerful code that even you can't understand a week later.:shipit:"
 <p align="center">
 **ALL THE BEST**
