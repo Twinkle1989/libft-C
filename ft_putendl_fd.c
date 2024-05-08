@@ -6,7 +6,7 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/30 00:22:58 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/04/30 00:25:55 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 21:48:00 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,12 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write (fd, "\n", 1);
 }
+
+/*
+** The ft_putendl_fd function writes a string followed by a newline character
+** to a specified file descriptor.
+**
+** Parameters:
+** s - A pointer to the string to be written.
+** fd - The file descriptor where the string will be written.
+*/

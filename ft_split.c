@@ -6,7 +6,7 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/27 18:05:56 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/05/03 16:28:10 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 20:11:04 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,3 +98,17 @@ char	**ft_split(char const *s, char c)
 	split[j] = 0;
 	return (split);
 }
+
+/*
+** The ft_split function splits a string into an array of substrings based on a
+** delimiter character.
+**
+** Parameters:
+** s - A pointer to the string to be split.
+** c - The delimiter character used to split the string.
+**
+** Return:
+** A dynamically allocated array of strings representing the split substrings.
+** The last element of the array is set to NULL.
+** NULL if memory allocation fails or if 's' is NULL.
+*/

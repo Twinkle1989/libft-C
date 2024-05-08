@@ -6,9 +6,10 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/19 19:46:37 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/04/19 20:23:41 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 15:47:16 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 char	*ft_strrchr(char const *str, int c)

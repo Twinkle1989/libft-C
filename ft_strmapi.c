@@ -6,7 +6,7 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 23:01:43 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/04/29 23:46:57 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 20:29:28 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,19 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	dest[i] = 0;
 	return (dest);
 }
+
+/*
+** The ft_strmapi function applies a function to each character of a string,
+** creating a new string with the results.
+**
+** Parameters:
+** s - A pointer to the input string.
+** f - The function to be applied to each character.
+** It takes an unsigned integer (the index) and a character as parameters,
+** and returns a new character based on the index and the input character.
+**
+** Return:
+** A dynamically allocated string resulting from the application of the
+** function to each character of the input string.
+** NULL is returned if memory allocation fails or if the input string is NULL.
+*/

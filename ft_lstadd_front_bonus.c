@@ -6,7 +6,7 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/30 19:06:51 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/05/02 18:18:50 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 21:52:17 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,3 +19,12 @@ void	ft_lstadd_front(t_list **alst, t_list *new)
 	new->next = *alst;
 	*alst = new;
 }
+
+/*
+** The ft_lstadd_front function adds a new element at the beginning of a linked
+** list.
+**
+** Parameters:
+** lst - A pointer to the pointer to the first element of the list.
+** new - A pointer to the element to be added.
+*/

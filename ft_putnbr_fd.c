@@ -6,7 +6,7 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/30 00:26:35 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/04/30 00:34:48 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 21:47:25 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,3 +39,11 @@ void	ft_putnbr_fd(int n, int fd)
 		}
 	}
 }
+
+/*
+** The ft_putnbr_fd function writes an integer to a specified file descriptor.
+**
+** Parameters:
+** n - The integer to be written.
+** fd - The file descriptor where the integer will be written.
+*/

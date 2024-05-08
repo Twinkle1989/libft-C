@@ -6,11 +6,9 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/19 11:43:03 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/04/19 11:57:05 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 15:33:44 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_toupper(int c)
 {

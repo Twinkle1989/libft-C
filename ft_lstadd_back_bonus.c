@@ -6,7 +6,7 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/02 17:09:42 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/05/02 18:19:20 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 22:35:39 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,11 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	}
 	new_node->next = new;
 }
+
+/*
+** The ft_lstadd_back function adds a new element at the end of a linked list.
+**
+** Parameters:
+** lst - A pointer to the pointer to the first element of the list.
+** new - A pointer to the element to be added.
+*/

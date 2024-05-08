@@ -6,7 +6,7 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/27 21:21:27 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/04/30 17:08:10 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 20:13:38 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,3 +59,14 @@ char	*ft_itoa(int n)
 		str[0] = '0';
 	return (str);
 }
+
+/*
+** The ft_itoa function converts an integer to a string representation.
+**
+** Parameters:
+** n - The integer to be converted.
+**
+** Return:
+** A dynamically allocated string representing the converted integer.
+** NULL is returned if memory allocation fails.
+*/

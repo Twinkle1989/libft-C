@@ -6,7 +6,7 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/02 14:50:52 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/05/02 16:04:22 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 22:24:31 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,15 @@ t_list	*ft_lstlast(t_list *lst)
 		current = current->next;
 	return (current);
 }
+
+/*
+** The ft_lstlast function returns a pointer to the last element of a
+** linked list.
+**
+** Parameters:
+** lst - A pointer to the first element of the list.
+**
+** Return:
+** A pointer to the last element of the list. If the list is empty
+** (i.e., lst is NULL), the function returns NULL.
+*/

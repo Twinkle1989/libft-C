@@ -6,9 +6,10 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 16:07:06 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/04/22 17:25:15 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 17:18:47 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 char	*ft_strnstr(char const *haystack, char const *needle, size_t n)

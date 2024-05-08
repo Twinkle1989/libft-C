@@ -6,7 +6,7 @@
 /*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/30 18:04:55 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/04/30 19:05:50 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 21:51:02 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,12 @@ t_list	*ft_lstnew(void *content)
 	new_node->next = NULL;
 	return (new_node);
 }
+
+/*
+** The ft_lstnew function creates a new linked list element with the
+** provided content.
+**
+** Parameters:
+** content - A pointer to the content to be stored in the new list
+** element.
+*/

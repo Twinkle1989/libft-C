@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tsolanki <tsolanki@student.hive.com>       +#+  +:+       +#+        */
+/*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/17 12:40:57 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/04/17 19:04:21 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 17:08:34 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,8 +45,8 @@ int		ft_isprint(int c);
 void	ft_bzero(void *s, size_t n);
 void	*ft_calloc(size_t count, size_t n);
 void	*ft_memchr(void const *str, int c, size_t n);
-int		ft_memcmp(void const *s1, void const *s2, size_t n);
-void	*ft_memcpy(void	*dest, void const *src, size_t n);
+int		ft_memcmp(void const *s1, const void *s2, size_t n);
+void	*ft_memcpy(void	*dest, const void *src, size_t n);
 void	*ft_memmove(void *dest, const void *src, size_t n);
 void	*ft_memset(void *str, int c, size_t n);
 

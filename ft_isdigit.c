@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tsolanki <tsolanki@student.hive.com>       +#+  +:+       +#+        */
+/*   By: tsolanki <tsolanki@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/17 15:25:33 by tsolanki          #+#    #+#             */
-/*   Updated: 2024/04/17 15:31:32 by tsolanki         ###   ########.fr       */
+/*   Updated: 2024/05/06 12:44:54 by tsolanki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
